@@ -39,10 +39,8 @@ const DiceRoll = () => {
     return (
         <>
             <div>
-                <FontAwesomeIcon icon={diceIcons[number]} />
-            </div>
-            <div>
-                <FontAwesomeIcon icon={diceIcons[numberTwo]} />
+                <FontAwesomeIcon icon={diceIcons[number]} className="largerIcon" />
+                <FontAwesomeIcon icon={diceIcons[numberTwo]} className="largerIcon" />
             </div>
             <button onClick={handleClick}>Roll Dice!</button>
         </>
